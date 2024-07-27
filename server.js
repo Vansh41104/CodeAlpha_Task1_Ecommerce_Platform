@@ -18,7 +18,7 @@ app.use(bodyParser.json());
 app.use(morgan('tiny'));
 // Routing
 app.get('/', (req, res) => {
-    res.sendFile('index.html', {root: 'public/templates'});
+    res.sendFile('Index.html', {root: 'public/templates'});
 });
 app.get('/shop', (req, res) => {
     res.sendFile('shop.html', {root: 'public/templates'});

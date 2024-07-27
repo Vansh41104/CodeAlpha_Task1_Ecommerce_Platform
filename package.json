@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "run": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +17,10 @@
     "express.js": "^1.0.0",
     "mongoose": "^8.5.1",
     "morgan": "^1.10.0",
-    "nodemon": "^3.1.4",
+    "run-script": "^0.1.1",
     "stripe": "^16.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
